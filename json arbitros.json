@@ -1,0 +1,17 @@
+[{"Nombre": "Ginis Ramirez","Club": "Metropolitano"},
+{
+    "Nombre": "Javier Cardenas",
+    "Club": "Tequendama"
+  },
+  {
+    "Nombre": "Nelson Soler",
+    "Club": "Skate ned"
+  },
+  {
+    "Nombre": "Luz Angela",
+    "Club": "Avivas"
+  }]
+
+for(i=0; i < 100000; i++){
+     db.Arbitros.insert({"Nombre": "nombre de arbitro "+i,"Club": "pertenece al club numero"+i})
+  }
